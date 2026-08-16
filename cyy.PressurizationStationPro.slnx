@@ -1,0 +1,23 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="cyy.PressurizationStationPro/cyy.PressurizationStationPro.csproj" Id="35dea948-85a3-48d3-ad25-25c34db47b12">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="xbd.ControlLib/xbd.ControlLib.csproj" Id="d95ed733-cf03-4636-a414-3882d3fa8cab">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="xbd.DataConvertLib/xbd.DataConvertLib.csproj" Id="867237ad-51f4-4ca5-ad32-d68844cc9101">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="xbd.s7netplus/xbd.s7netplus.csproj" Id="87dca77d-a82c-4ccd-8792-5e6cfb0cc765">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
